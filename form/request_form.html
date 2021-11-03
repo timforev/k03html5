@@ -1,0 +1,12 @@
+request.setCharacterEncoding("UTF-8");
+
+String id= request.getParmeter("user_id");
+String pw= request.getParameter("user_pwd");
+%>
+<ul>
+    <li>전송된 아이디: <%=id %></li>
+    <li>전송된 패스워드 : <%=pw %></li>
+
+</ul>
+
+</body>
